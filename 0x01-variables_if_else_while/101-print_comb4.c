@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all possible different combinations of three digits
+ * main - program that prints all possible different combinations of three digit
  * Numbers must be separated by ,followed by a space
- * he two digits must be different
+ * The two digits must be different
  * 012, 120, 102, 021, 201, 210 are considered the same combination
  * Return: 0
  */
@@ -20,7 +20,6 @@ n2 = n1 + 1;
 while (n2 <= 57)
 {
 n3 = n2 + 1;
-while (n3 <= 57)
 {
 putchar(n1);
 putchar(n2);
